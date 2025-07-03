@@ -1,6 +1,8 @@
 import java.awt.*;
 import java.awt.event.*;
 import java.util.*;
+import java.util.Queue;
+
 import javax.swing.*;
 
 public class LabirintoEditor extends JFrame {
@@ -20,7 +22,7 @@ public class LabirintoEditor extends JFrame {
     private static final Color COR_DESTINO = Color.RED;
     
     private JButton[][] botoesCelulas;
-    private int[][] matriz; // 0 = parede, 1 = caminho livre
+    private int[][] matriz; // 0 = parede, 1 = caminho livr
     private JButton btnBFS, btnDFS, btnReiniciar;
     private JLabel lblStatus;
     
